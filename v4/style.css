@@ -1,0 +1,23 @@
+.tooltip {
+    position: relative;
+    display: block;
+}
+
+#tooltipContent {
+
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    background-color: #eee;
+    border: 1px solid #555;
+    border-radius: 5px;
+    top: 55px;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+    transition: 1s;
+    transform: translateX(-50%) translateY(-50px);
+}
